@@ -1,0 +1,274 @@
+#main-content {
+    margin-right: 10px;
+    position: relative;
+}
+
+#block {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, .5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    displa: block;
+}
+
+.vue-input-tag-wrapper .new-tag {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.row {
+    display: flex;
+    margin: 0 -5px;
+    flex-wrap: wrap;
+}
+
+.column {
+    display: flex;
+    flex: 1;
+    margin: 0 5px 10px;
+}
+
+a:focus,
+input[type=text]:focus {
+    box-shadow: none;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+.dhx_cal_container,
+.dhx_timeline_label_wrapper {
+    background: transparent;
+}
+
+.status-label {
+    font-weight: normal;
+}
+
+.dhx_cal_container.dhx_mini_calendar {
+    background: #fff;
+}
+
+.dhx_section_time input.dhx_readonly {
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, .08) !important;
+}
+
+.dhx_cal_light_wide .dhx_wrap_section {
+    margin-bottom: 5px;
+}
+
+.dhx_cal_light .dhx_cal_radio label {
+    margin-right: 10px;
+}
+
+.dhx_widget.dhx_message {
+    margin-top: 2px;
+}
+
+.dhx_cal_container #room_filter:focus {
+    outline: 1px solid #52daff;
+}
+
+.timeline-cell-inner {
+    height: 100%;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.timeline-cell-inner td {
+    border-left: 1px solid #cecece;
+}
+
+.timeline_weekend {
+    background-color: #f7f7f7;
+}
+
+.timeline_item_cell {
+    float: left;
+    width: 32%;
+    height: 100% !important;
+    font-size: 14px;
+    text-align: center;
+    /* line-height: 50px; */
+}
+
+.room_status {
+    position: relative;
+}
+
+.timeline_item_separator {
+    float: left;
+    background-color: #CECECE;
+    width: 1px;
+    height: 100% !important;
+}
+
+.room_status_indicator {
+    position: absolute;
+    background-color: red;
+    left: 0;
+    top: 0;
+    right: 95%;
+    bottom: 0;
+}
+
+.room_status_indicator_1 {
+    background-color: #0AB169;
+}
+
+.room_status_indicator_2 {
+    background-color: #FF5252;
+}
+
+.room_status_indicator_3 {
+    background-color: #DF943D;
+}
+
+.dhx_cal_event_line {
+    background-color: #FFB74D !important;
+}
+
+.event_1 {
+    background-color: #ff9633 !important;
+}
+
+.event_2 {
+    background-color: #0fc4a7 !important;
+}
+
+.event_3 {
+    background-color: #0288d1 !important;
+}
+
+.event_4 {
+    background-color: #9575cd !important;
+}
+
+.booking_status,
+.booking_paid {
+    position: absolute;
+    right: 5px;
+}
+
+.booking_status {
+    top: 2px;
+}
+
+.booking_paid {
+    bottom: 2px;
+}
+
+.dhx_cal_event_line:hover .booking-option {
+    background: none !important;
+}
+
+.dhx_cal_header .dhx_scale_bar {
+    line-height: 26px;
+    color: black;
+}
+
+.dhx_mini_calendar .dhx_year_week,
+.dhx_mini_calendar .dhx_scale_bar {
+    height: 30px !important;
+}
+
+.dhx_cal_light_wide .dhx_cal_lsection {}
+
+.dhx_cal_light_wide .dhx_section_time {
+    text-align: left;
+}
+
+.dhx_scale_bar.dhx_second_scale_bar,
+.dhx_scale_bar {
+    color: rgba(0, 0, 0, .54) !important
+}
+
+.dhx_cal_light.dhx_cal_light_wide {
+    width: 500px;
+}
+
+.dhx_cal_light_wide .dhx_section_time>input:first-child {
+    margin-left: 10px;
+}
+
+.dhx_cal_light_wide .dhx_section_time input {
+    border: 1px solid #aeaeae;
+    padding-left: 5px;
+}
+
+.dhx_cal_light_wide .dhx_readonly {
+    padding: 3px;
+}
+
+.collection_label .timeline_item_cell {
+    line-height: 60px;
+}
+
+.dhx_cal_radio label,
+.dhx_cal_radio input {
+    vertical-align: middle;
+}
+
+.dhx_cal_radio input {
+    margin-left: 10px;
+    margin-right: 2px;
+}
+
+.dhx_cal_radio input:first-child {
+    margin-left: 5px;
+}
+
+.dhx_cal_radio {
+    line-height: 19px;
+}
+
+.dhtmlXTooltip.tooltip {
+    color: #4d4d4d;
+    font-size: 15px;
+    line-height: 140%;
+}
+
+
+/*  Material Skin Fixes*/
+
+.dhx_cal_header.dhx_second_cal_header {
+    border-bottom: 1px solid #e0e0e0 !important;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .1) !important;
+}
+
+.dhx_scale_bar.dhx_second_scale_bar {
+    border-top: 1px solid #e0e0e0 !important;
+    border-bottom: 1px solid #e0e0e0 !important;
+}
+
+.dhx_timeline_scale_header.dhx_timeline_second_scale {
+    border-top: 1px solid #e0e0e0 !important;
+    border-bottom: 1px solid #e0e0e0 !important;
+    height: 59px !important;
+    /* Compensate 1px difference with the scale_bar row*/
+}
+
+
+/* Core styles */
+
+#hotel_book .lh32 {
+    line-height: 32px;
+}
+
+#hotel_book .float-right {
+    float: right;
+}
+
+#hotel_book .button-edit {
+    background: #FFB900;
+    border: 1px solid #FFB900;
+}
+
+#hotel_book .button-delete {
+    background: #DC3232;
+    border: 1px solid #DC3232;
+}
